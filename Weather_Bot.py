@@ -25,18 +25,18 @@ bot = commands.Bot(command_prefix='!', intents=intents)
  
 async def scrape_weather():
        
-            #run headless (no visible browser)
+            #run headless no visible browser
     options = Options()
     options.add_argument("--headless")
     driver = webdriver.Chrome(options=options)
 
     driver.get("https://360.thormobile.net/ucf-rwc/tv/")
 
-            # Wait for JavaScript to load the page
+            #wait for JavaScript to load the page
     time.sleep(4)
 
     try:
-                # Get the element by ID
+                #get the element by ID
         time_element = driver.find_element(By.ID, 'wxtimeStampLabel')
         weather_element = driver.find_element(By.ID, "thorStatusLabel")
         temp_element = driver.find_element(By.ID, 'wxTempValueLabel')
@@ -90,8 +90,8 @@ async def weather(ctx):
 #loops everyday to tell current weather
 @tasks.loop(time=alert_time)
 async def daily_weather():
-    #channel id for bot
-    channel = bot.get_channel(1400512264448114758)
+    #channel id for bot you would enter that info here
+    channel = bot.get_channel(...)
     #if we have correct channel then begin pulling data
     if channel:
         await channel.send(".......................................................................................")
@@ -128,7 +128,7 @@ async def on_ready():
     daily_weather.start()
 
     
-#key to run bot in specific servers
-bot.run('MTQwMDg0OTUzMDU0MjQ4OTYwMA.GFhQJl.NHXgFBT3LEsZKQPtjeCaAkY-Fwp4KU_6hYiT6M')
-#1400512264448114758
+#key to run bot in specific servers you would enter your code here to run bot.
+bot.run('...')
+
 
