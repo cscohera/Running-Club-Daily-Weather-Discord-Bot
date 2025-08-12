@@ -17,8 +17,8 @@ weather_cache = {
 
 CACHE_TTL = 30
 
-# this is on utc time so time is displaced by either 4 or 5 hours ahead from orlando time.
-alert_time = datetime.time(hour=18,minute=19,tzinfo=utc)
+# this is on utc time so time is displaced by either 4 or 5 hours ahead from orlando time. 21:15 is 5:15 which is time I want to alert about practice.
+alert_time = datetime.time(hour=21,minute=15,tzinfo=utc)
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
