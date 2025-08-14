@@ -25,7 +25,7 @@ This is when I ran into a larger problem when I had a few other officers test th
 In order to fix both of these issues I decided to start caching weather info for 30 seconds so that if someone asks for the weather it will take the first request and requests after which will be ignored inorder to not send out unneed requests. 
 <img width="623" height="418" alt="Screenshot 2025-08-14 at 4 33 30 PM" src="https://github.com/user-attachments/assets/348ac6d6-02d0-4cff-9391-b82a64c15479" />
 
-Example of bot breaking with multiple requests. 
+
 <img width="606" height="548" alt="Screenshot 2025-08-14 at 4 36 04 PM" src="https://github.com/user-attachments/assets/8db959d0-f791-4640-8736-39b5cdf65e6f" />
 
 Here you can see the corrected solution. This was a great solution that solved both problems and one I'm very happy with.
