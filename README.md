@@ -2,10 +2,18 @@
 
 Made this Bot to tell UCF club runners the weather. This was done so that if I forgot to check Thorguard (the weather system used by UCF) club members would still know if practice was happening or not.
 
+# The Bot started off very simple with me learning how to create a discord bot
+
+I wanted to get my data from UCF's weather system Thorguard as that determines if we have practice or not. 
 <img width="596" height="159" alt="Screenshot 2025-08-14 at 4 34 18 PM" src="https://github.com/user-attachments/assets/7689c001-7b4b-4163-b88b-93da94e1c9e8" />
 
-<img width="623" height="418" alt="Screenshot 2025-08-14 at 4 33 30 PM" src="https://github.com/user-attachments/assets/348ac6d6-02d0-4cff-9391-b82a64c15479" />
+
 <img width="472" height="214" alt="Screenshot 2025-08-14 at 4 34 45 PM" src="https://github.com/user-attachments/assets/4ac772aa-5979-4d1d-9235-a53368912820" />
+
+<img width="623" height="418" alt="Screenshot 2025-08-14 at 4 33 30 PM" src="https://github.com/user-attachments/assets/348ac6d6-02d0-4cff-9391-b82a64c15479" />
+
 <img width="606" height="548" alt="Screenshot 2025-08-14 at 4 36 04 PM" src="https://github.com/user-attachments/assets/8db959d0-f791-4640-8736-39b5cdf65e6f" />
+
 <img width="580" height="545" alt="Screenshot 2025-08-14 at 4 36 59 PM" src="https://github.com/user-attachments/assets/93744cf7-c9e8-4036-9d79-e5c1cee929c9" />
+
 <img width="525" height="274" alt="Screenshot 2025-08-14 at 4 45 22 PM" src="https://github.com/user-attachments/assets/31e93e95-16cb-43fc-b5d7-d764c36ebb07" />
