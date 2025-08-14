@@ -4,7 +4,7 @@ Made this Bot to tell UCF club runners the weather. This was done so that if I f
 
 
 
-
+&emsp
 
 
 # The Bot started off very simple with me learning the basics
@@ -13,7 +13,7 @@ I wanted to get my data from UCF's weather system Thorguard as that determines i
 <img width="596" height="159" alt="Screenshot 2025-08-14 at 4 34 18 PM" src="https://github.com/user-attachments/assets/7689c001-7b4b-4163-b88b-93da94e1c9e8" />
 
 
-
+&emsp
 
 
 Once I was able to figure out what I wanted to display I started to perfect it.
