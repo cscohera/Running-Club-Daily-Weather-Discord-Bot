@@ -23,7 +23,7 @@ Once I was able to figure out what I wanted to display I started to perfect it.
 <br />
 
 <img width="472" height="214" alt="Screenshot 2025-08-14 at 4 34 45 PM" src="https://github.com/user-attachments/assets/4ac772aa-5979-4d1d-9235-a53368912820" />
-
+<br />
 <br />
 This is when I ran into a larger problem when I had a few other officers test the bot. I couldn't pull information fast enough and multiple requests would mess up the formatting of the bot. Additonally, I hit a rate limit from discord which were to major things I needed to fix. 
 
@@ -31,7 +31,8 @@ In order to fix both of these issues I decided to start caching weather info for
 <br />
 <br />
 <img width="623" height="418" alt="Screenshot 2025-08-14 at 4 33 30 PM" src="https://github.com/user-attachments/assets/348ac6d6-02d0-4cff-9391-b82a64c15479" />
-
+<br />
+<br />
 Another example of bot breaking with multiple requests:
 <br />
 <br />
