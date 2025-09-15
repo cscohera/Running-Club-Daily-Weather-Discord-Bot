@@ -7,10 +7,8 @@ import asyncio
 import json
 import requests
 
-#Current BUGS
+
 #works in any channel
-#RESTRICT COMMAND TO OFFICERS ONLY!!!!!!!
-#PIN message about the weather and your own choice
 utc = datetime.timezone.utc
 
 GUILD_ID = discord.Object(id=1293001574217547816)
@@ -200,5 +198,5 @@ async def Slash_weather(interaction: discord.Interaction):
             await interaction.followup.send("An error occurred while getting the weather. Please try again later.")
 
 #key to run bot in specific servers
-bot.run('MTQwMDg0OTUzMDU0MjQ4OTYwMA.GFhQJl.NHXgFBT3LEsZKQPtjeCaAkY-Fwp4KU_6hYiT6M')
-#1400512264448114758
+bot.run(...)
+
