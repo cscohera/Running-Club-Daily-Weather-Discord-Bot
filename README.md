@@ -51,3 +51,33 @@ Final product: Bot can display weather at any time with the !weather command and
 <br />
 <br />
 <img width="525" height="274" alt="Screenshot 2025-08-14 at 4 45 22 PM" src="https://github.com/user-attachments/assets/31e93e95-16cb-43fc-b5d7-d764c36ebb07" />
+<br />
+<br />
+# This leads into WeatherBotV2 
+
+After some feedback and my personal need to refine this project, I decided to make this bot faster, cleaner, and easier to use for users.
+This led me to finding that there was in fact a api that thorguard was using I just needed to look more. 
+
+<br />
+<br />
+
+<img width="1371" height="529" alt="Screenshot 2025-09-18 at 11 24 19 AM" src="https://github.com/user-attachments/assets/c14682b4-0623-4887-9493-c053f79667eb" />
+<br />
+<br />
+
+I went on to remove webscraping and stopped using selenium. Testing api was much faster fixing delay issues. Below contains the json data I needed for this project.
+<br />
+<br />
+
+<img width="1435" height="132" alt="Screenshot 2025-09-18 at 11 46 25 AM" src="https://github.com/user-attachments/assets/05140ca3-bdd5-42b0-ac6b-c24e6aabb20a" />
+<br />
+<br />
+
+From here I needed to convert the json into a python dict in order to easily access each individual piece of weather information. 
+<br />
+<br />
+<img width="1121" height="519" alt="Screenshot 2025-09-18 at 11 51 33 AM" src="https://github.com/user-attachments/assets/89ceddb3-756a-4445-9830-6c3e3e5f305a" />
+<br />
+<br />
+
+
