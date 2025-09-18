@@ -53,6 +53,7 @@ Final product: Bot can display weather at any time with the !weather command and
 <img width="525" height="274" alt="Screenshot 2025-08-14 at 4 45 22 PM" src="https://github.com/user-attachments/assets/31e93e95-16cb-43fc-b5d7-d764c36ebb07" />
 <br />
 <br />
+
 # This leads into WeatherBotV2 
 
 After some feedback and my personal need to refine this project, I decided to make this bot faster, cleaner, and easier to use for users.
@@ -79,5 +80,12 @@ From here I needed to convert the json into a python dict in order to easily acc
 <img width="1121" height="519" alt="Screenshot 2025-09-18 at 11 51 33 AM" src="https://github.com/user-attachments/assets/89ceddb3-756a-4445-9830-6c3e3e5f305a" />
 <br />
 <br />
+Next, with this new information I began working on the /command which will be much easier for Knight Runner officers to tell runners if practice is happening. I had some issues early on converting the json but I figured out quickly it was layered into the ['23-08-30-010']. I also had to do more research into discords documentation to learn how to implement a / command and only allow it for officers so not all users could spam the command.
+<br />
+<br />
+<img width="1086" height="710" alt="Screenshot 2025-09-18 at 12 25 28 PM" src="https://github.com/user-attachments/assets/3b81dfef-797a-4917-9891-a5e6a2135fd0" />
+
+
+
 
 
