@@ -6,6 +6,8 @@ import datetime
 import asyncio
 import json
 import requests
+import os
+from dotenv import load_dotenv
 
 
 #works in any channel
@@ -197,6 +199,10 @@ async def Slash_weather(interaction: discord.Interaction):
             print(f"An error occurred in the weather command: {e}")
             await interaction.followup.send("An error occurred while getting the weather. Please try again later.")
 
+load_dotenv()
+
+# Access the Discord bot token
+discord_bot_token = os.getenv('Your_name_here')
 #key to run bot in specific servers
-bot.run(...)
+bot.run(discord_bot_token)
 
